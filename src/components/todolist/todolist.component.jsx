@@ -8,7 +8,7 @@ const Todolist = () => {
         payload: id,        
     });
     if (!todos || !todos.length){
-        return <p>Empty TO-DO List</p>
+        return <p>Empty TO-DO List (Click list to delete list)</p>
     }
     return (
         <ul>
